@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    Hello world!
+    Hello world! HI WE
 </template>
 
 <style scoped>
