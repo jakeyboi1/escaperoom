@@ -8,9 +8,9 @@ import FinalPuzzle from '../views/finalpuzzle.vue'
 const router = createRouter({
     history: createWebHashHistory('/escaperoom/'),
     routes: [
-        { path: '/', name: "Home", component: Home },
-        { path: '/wordle', name: "Wordle", component: Wordle },
-        { path: '/redbutton', name: "Red Button", component: RedButton },
+        { path: '/w', name: "Home", component: Home },
+        { path: '/w', name: "Wordle", component: Wordle },
+        { path: '/', name: "Red Button", component: RedButton },
         { path: '/captcha', name: "Home", component: Captcha },
         { path: '/final', name: "Home", component: FinalPuzzle }
     ]
